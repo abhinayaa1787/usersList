@@ -24,7 +24,7 @@ Installed axios using the command
 
  This component is used in the App.js. The end user who wants to see the list of users will see the following in the react app
 
-    `List of users:
+    List of users:
         Smith,Bill
         Johnson,Sally
         Good,John
