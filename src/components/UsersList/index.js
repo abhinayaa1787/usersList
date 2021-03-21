@@ -8,7 +8,7 @@ class UsersList extends React.Component{
     }
 componentDidMount(){
     // Fetching users from an endpoint 
-    axios.get('http://exercises.getsandbox.com/users:')
+    axios.get('http://exercises.getsandbox.com/users')
         .then(res=>
            this.setState({users:res.data}))
         .catch(error => {
