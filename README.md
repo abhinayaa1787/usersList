@@ -20,7 +20,7 @@ Installed axios using the command
  
  Created a component UsersList to fetch data from the endpoint `http://exercises.getsandbox.com/users`
  
- After setting the state to the component, the <ul> displays the last names and the first names of the users.
+ After setting the state to the component, the ul displays the last names and the first names of the users.
 
  This component is used in the App.js. The end user who wants to see the list of users will see the following in the react app
 
