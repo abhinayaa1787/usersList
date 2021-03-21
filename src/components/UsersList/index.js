@@ -16,7 +16,7 @@ render(){
         <ul>
             <h2>List of users:</h2>
             {this.state.users.map(user=> 
-                <li>{user.lastName},{user.firstName}</li>)}
+                <li style={{listStyleType:"none"}}>{user.lastName},{user.firstName}</li>)}
         </ul>
     )
 }
