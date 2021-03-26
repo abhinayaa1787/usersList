@@ -18,17 +18,16 @@ componentDidMount(){
         .catch(error => {
             console.log(error);
         })
-    }
+    };
 
 // Traversing the users list to fetch last name, first name
 render(){
-    return(
-//If the users arra is empty then the page displas loading(as the axios.get is fetching data)
-        const list=   ({this.state.users.map(user=> 
-            <li key={user.id} style={{listStyleType:"none", marginLeft:"50px", lineHeight:"2em"}}>{user.lastName},{user.firstName}</li>)};
+     return(
+// If the users arra is empty then the page displas loading(as the axios.get is fetching data)
         <ul>
             <h2>List of users:</h2>
-            {this.state.users.length ? {list}: "Loading..."}
+            {this.state.users.length ? (this.state.users.map(user=> 
+        <li key={user.id} style={{listStyleType:"none", marginLeft:"50px", lineHeight:"2em"}}>{user.lastName},{user.firstName}</li>)): "Loading..."}
         </ul>
     )
 }
